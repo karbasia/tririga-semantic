@@ -24,4 +24,4 @@ Read more about this UX application in my [blog post](https://karbasi.dev/blog/p
 1. The query MUST only contain one text field for semantic search. This is hardcoded to reduce POC complexity
 1. Only the first 1000 rows of the query generate embeddings. This is to reduce the memory usage
 1. Environments with context paths MAY require additional tweaks to the code. Send me a note if you are experiencing issues and we can debug this together
-1. My sample data is provided in the file `lease_clauses.txt`
+1. My sample data is provided in the file `lease_clauses.md`
