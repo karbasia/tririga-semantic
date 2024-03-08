@@ -13,7 +13,8 @@ Read more about this UX application in my [blog post](https://karbasi.dev/blog/p
 1. Create a Model & View record with the newly created view and any model
 1. Create a new application record withthe M&V from above and the exposed name `semanticSearch` and an instance ID of `-1`
 1. Clone this repository
-1. Run `npm install`
+1. Run `npm install` to install dependencies
+1. Run `npm run build` to create the final distribution files under the `dist` folder
 1. Deploy the code using the command `npx @tririga/tri-deploy -u <USER> -p <PASS> -v <VIEW_EXPOSED_NAME> -t <TRIRIGA> -v -m 3`
 1. Navigate to `<TRIRIGA>/app/semanticSearch` to view the application
 
